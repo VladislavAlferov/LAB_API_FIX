@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "903677627480",
+    "firebase_url": "https://x-pulsar-280705.firebaseio.com",
+    "project_id": "x-pulsar-280705",
+    "storage_bucket": "x-pulsar-280705.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:903677627480:android:fa141883284fac196ece2d",
+        "android_client_info": {
+          "package_name": "com.example.map_lab"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "903677627480-uj0rip5pu4t0eruvo19r90inb29pt861.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBYXan6W3CJ5cVf1cvcSSfkY6r42gTaXAA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "903677627480-uj0rip5pu4t0eruvo19r90inb29pt861.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

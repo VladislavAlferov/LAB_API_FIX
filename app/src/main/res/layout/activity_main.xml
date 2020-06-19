@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+        <EditText
+            android:id="@+id/text"
+            android:layout_width="230dp"
+            android:layout_height="55dp"
+            android:layout_marginStart="22dp"
+            android:layout_marginEnd="2dp"
+
+            android:hint="Поиск"
+            android:textSize="19dp"></EditText>
+        <Button
+            android:id="@+id/bttn"
+            android:layout_width="wrap_content"
+            android:layout_gravity="end"
+            android:text="Найти"
+            android:onClick="Click"
+            android:layout_height="match_parent">
+        </Button>
+    </LinearLayout>
+
+
+    <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        tools:context=".MainActivity"/>
+
+</LinearLayout>
